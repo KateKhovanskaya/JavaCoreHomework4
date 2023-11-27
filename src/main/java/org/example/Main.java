@@ -7,12 +7,10 @@ import org.example.shop.BaseOfCustomers;
 import org.example.shop.BaseOfOrders;
 import org.example.shop.BaseOfproducts;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
 
-//        1. Задача: Проверка логина и пароля
+//        Этап 1: Проверка логина и пароля
 
         Form form = new Form("логин", "jfhdjd", "jfhdjd");
         try{
@@ -23,7 +21,7 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
-//        2. Задача: Эмуляция интернет-магазина
+//        Этап 2: Эмуляция интернет-магазина
 
         BaseOfCustomers baseOfCustomers = new BaseOfCustomers();
         baseOfCustomers.addCustomer("Иван");
